@@ -19,11 +19,10 @@ h1 {
   letter-spacing: 0.2em;
 }
 
-
 h2 {
   font-size: 200%;
   text-align: left;
-  padding: 35px 0 10px 35px
+  padding: 35px 0px 10px 30px
 }
 
 .baku {
@@ -61,11 +60,15 @@ h2 {
 @media screen and (min-width: 575px){
    div {
     margin: 1%;
-    width: 100%;
+    width: 45%;
+    height:45%;
+    display: inline-block;
   }
 
-  @media screen and (min-width: 991px){
+@media screen and (min-width: 991px){
      div {
       margin: 1%;
-      width: 100%;
-    }
+      width: 22%;
+      height:22%;
+      display: inline-block;
+  }
